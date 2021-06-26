@@ -1,14 +1,14 @@
-function ProfilePage(props) {
+function ProfilePageFunction(props) {
   const showMessage = () => {
-    alert("Followed " + props.name);
+    alert("Followed " + props.user);
   };
 
   const handleClick = () => {
-    setTimeout(showMessage, 3000);
+    setTimeout(showMessage, 1000);
   };
 
-  return <button onClick={handleClick}>Push the button</button>;
+  return <button onClick={handleClick}>Push the Func button</button>;
 }
 
-export default ProfilePage;
+export default ProfilePageFunction;
 
