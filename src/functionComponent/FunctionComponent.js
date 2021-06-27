@@ -4,7 +4,7 @@ function ProfilePageFunction(props) {
   };
 
   const handleClick = () => {
-    setTimeout(showMessage, 1000);
+    setTimeout(showMessage, 3000);
   };
 
   return <button onClick={handleClick}>Push the Func button</button>;

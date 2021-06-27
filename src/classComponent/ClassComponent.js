@@ -6,12 +6,13 @@ class ProfilePageClass extends Component {
   };
 
   handleClick = () => {
-    setTimeout(this.showMessage, 1000);
+    setTimeout(this.showMessage, 3000);
   };
 
   render() {
     return <button onClick={this.handleClick}>Push the Class button</button>;
   }
 }
+
 
 export default ProfilePageClass;
